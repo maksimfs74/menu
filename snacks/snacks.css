@@ -1,7 +1,47 @@
-.container{
-   display: flex;
+
+.__title {
+   font-size:32px;
+}
+.__block {
+   display:flex;
+   flex-wrap: wrap;
    justify-content: center;
-   align-items:center;
-   font-size:48px;
-   height:100vh;
+}
+.__item {
+   cursor:pointer;
+   max-width:300px;
+   font-size:22px;
+   background-color: #f5f5f5;
+   transition:all .4s;
+   border-radius:15px;
+   margin:15px;
+}
+.__item:hover{
+   opacity:.8;
+}
+.__item:active{
+   transform:scale(.98);
+}
+.item__title {
+   text-align:center;
+   font-size:18px;
+   color:#555555;
+   font-weight:700;
+}
+.item__description {
+   transition: all .4s;
+   text-align:center;
+   color:#949494;
+   font-weight:400;
+   visibility: hidden;
+   display: none;
+}
+.open{
+   display:block;
+   visibility: visible;
+}
+.img{
+   border-radius:15px;
+width:300px;
+height:200px;
 }

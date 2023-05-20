@@ -11,3 +11,4 @@ bar.addEventListener('click', ()=>{
    main__bar.classList.remove('__close');
    main__dishes.classList.add('__close');
 })
+
