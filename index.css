@@ -114,8 +114,8 @@ transform:scale(.95);
 .snacks {
    background-image: linear-gradient(
     to bottom,
-    rgba(255, 255, 0, 0.5),
-    rgba(0, 0, 255, 0.5)
+    rgba(255, 255, 255, 0.5),
+    rgba(0, 0, 0, 0.5)
   ), url("./img/snacks.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -124,8 +124,8 @@ transform:scale(.95);
 .pasta {
    background-image: linear-gradient(
     to bottom,
-    rgba(255, 255, 0, 0.5),
-    rgba(0, 0, 255, 0.5)
+    rgba(255, 255, 255, 0.5),
+    rgba(0, 0, 0, 0.5)
   ), url("./img/pasta.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -134,19 +134,19 @@ transform:scale(.95);
 .pizza {
    background-image: linear-gradient(
     to bottom,
-    rgba(255, 255, 0, 0.5),
-    rgba(0, 0, 255, 0.5)
-  ), url("./img/pizza.jpeg");
+    rgba(255, 255, 255, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url("./img/pizza.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .sups {
    background-image: linear-gradient(
-    to bottom,
-    rgba(255, 255, 0, 0.5),
-    rgba(0, 0, 255, 0.5)
-  ), url("./img/borsh.jpg");
+      to bottom,
+      rgba(255, 255, 255, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("./img/borsh.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -154,8 +154,8 @@ transform:scale(.95);
 .garnir {
    background-image: linear-gradient(
     to bottom,
-    rgba(255, 255, 0, 0.5),
-    rgba(0, 0, 255, 0.5)
+    rgba(255, 255, 255, 0.5),
+    rgba(0, 0, 0, 0.5)
   ), url("./img/garnir.jpeg");
   background-repeat: no-repeat;
   background-position: center;
@@ -163,10 +163,10 @@ transform:scale(.95);
 }
 .sous {
    background-image: linear-gradient(
-    to bottom,
-    rgba(255, 255, 0, 0.5),
-    rgba(0, 0, 255, 0.5)
-  ), url("./img/sous.jpg");
+      to bottom,
+      rgba(255, 255, 255, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("./img/sous.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -177,40 +177,40 @@ transform:scale(.95);
 }
 .salads {
    background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 0, 0.5),
-      rgba(0, 0, 255, 0.5)
-    ), url("./img/salats.jpeg");
+    to bottom,
+    rgba(255, 255, 255, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url("./img/salats.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .hot {
    background-image: linear-gradient(
-    to bottom,
-    rgba(255, 255, 0, 0.5),
-    rgba(0, 0, 255, 0.5)
-  ), url("./img/hot.jpeg");
+      to bottom,
+      rgba(255, 255, 255, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("./img/hot.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .national__cuisine {
    background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 0, 0.5),
-      rgba(0, 0, 255, 0.5)
-    ), url("./img/dran.jpg");
+    to bottom,
+    rgba(255, 255, 255, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url("./img/dran.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .desserts {
    background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 0, 0.5),
-      rgba(0, 0, 255, 0.5)
-    ), url("./img/desserts.jpeg");
+    to bottom,
+    rgba(255, 255, 255, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url("./img/desserts.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -236,8 +236,8 @@ transform:scale(.95);
 .coctails {
    background-image: linear-gradient(
       to bottom,
-      rgba(255, 255, 0, 0.5),
-      rgba(0, 0, 255, 0.5)
+      rgba(255, 255, 255, 0.5),
+      rgba(0, 0, 0, 0.5)
     ), url("./img/cocktails.jpeg");
     background-repeat: no-repeat;
     background-position: center;
@@ -246,8 +246,8 @@ transform:scale(.95);
 .juice {
    background-image: linear-gradient(
       to bottom,
-      rgba(255, 255, 0, 0.5),
-      rgba(0, 0, 255, 0.5)
+      rgba(255, 255, 255, 0.5),
+      rgba(0, 0, 0, 0.5)
     ), url("./img/juice.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -256,8 +256,8 @@ transform:scale(.95);
 .strong__drinks {
    background-image: linear-gradient(
       to bottom,
-      rgba(255, 255, 0, 0.5),
-      rgba(0, 0, 255, 0.5)
+      rgba(255, 255, 255, 0.5),
+      rgba(0, 0, 0, 0.5)
     ), url("./img/strong.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -266,8 +266,8 @@ transform:scale(.95);
 .wine {
    background-image: linear-gradient(
       to bottom,
-      rgba(255, 255, 0, 0.5),
-      rgba(0, 0, 255, 0.5)
+      rgba(255, 255, 255, 0.5),
+      rgba(0, 0, 0, 0.5)
     ), url("./img/wine.jpeg");
     background-repeat: no-repeat;
     background-position: center;
