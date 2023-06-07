@@ -3,24 +3,26 @@
    flex-direction:column;
    height:100vh;
 }
-.__title{
+.__title {
    text-align:center;
 }
+
 .block__item {
    display:flex;
    align-items:center;
    justify-content: space-between;
    margin-left:15px;
-   border-bottom:1px solid black;
 }
-
+.block__description{
+max-width:400px;
+}
 .value__measure {
    font-family:Roboto;
    font-size:16px;
    color:#333;
    font-weight:500;
    margin-left:5px;
-   min-width:50px;
+   min-width:60px;
 }
 .value__price {
    font-family:Roboto;
@@ -28,30 +30,12 @@
    color:#333;
    font-weight:500;
    margin-left:5px;
-   min-width:50px;
 }
-
+.value__block {
+}
 .value__firstblock {
 display:flex;
 }
 .value__secondblock {
    display:flex;
-}
-.title__text{
-display:flex;
-flex-wrap:wrap;
-align-items:center;
-
-}
-.text__description{
-margin-left:15px;
-}
-.name__title{
-   font-weight:500;
-   margin:0;
-}
-@media(max-width:470px){
-   .name__title{
-      max-width:150px;
-   }
 }

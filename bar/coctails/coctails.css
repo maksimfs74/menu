@@ -1,7 +1,42 @@
 .container{
    display: flex;
-   justify-content: center;
-   align-items:center;
-   font-size:48px;
+   flex-direction:column;
    height:100vh;
+}
+.__title {
+   text-align:center;
+}
+.block__item {
+   display:flex;
+   align-items:center;
+   justify-content: space-between;
+
+}
+
+.value__measure {
+   font-family:Roboto;
+   font-size:16px;
+   color:#333;
+   font-weight:500;
+   margin-left:5px;
+   min-width:60px;
+}
+.value__price {
+   font-family:Roboto;
+   font-size:16px;
+   color:#333;
+   font-weight:500;
+   margin-left:5px;
+   min-width:50px;
+}
+.value__block {
+}
+.value__firstblock {
+display:flex;
+}
+.value__secondblock {
+   display:flex;
+}
+.block__text{
+   margin-left:15px;
 }

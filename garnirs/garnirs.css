@@ -11,7 +11,7 @@
    cursor:pointer;
    max-width:300px;
    font-size:22px;
-   background-color: #f5f5f5;
+   background-color: #f4f4f4f4;
    transition:all .4s;
    border-radius:15px;
    margin:15px;
@@ -26,29 +26,34 @@
    font-family:Roboto;
    margin-left:5px;
    text-align:left;
-   font-size:26px;
+   font-size:19px;
    color:#000;
+   font-weight:500;
    
 }
 .item__description {
+   font-size: 16px;
+   font-weight:200;
    font-family:Roboto;
    margin-left:5px;
    transition: all .4s;
    text-align:center;
-   color:#000;
+   color:#333;
    text-align:left;
 }
 
 .item__price {
    font-family:Roboto;
-   font-size:18px;
-   color:#000;
+   font-size:16px;
+   color:#333;
+   font-weight:500;
    margin-left:5px;
 }
 .item__weight {
    font-family:Roboto;
-   font-size:18px;
-   color:#000;
+   font-size:16px;
+   color:#333;
+   font-weight:500;
    margin-left:5px;
 }
 
@@ -56,4 +61,7 @@
    border-radius:15px;
 width:300px;
 height:200px;
+}
+.price__block{
+display:flex;
 }
