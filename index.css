@@ -65,12 +65,21 @@ transform:scale(.95);
    text-align:center;
 padding:60px;
 margin:15px;
-
 border-radius:25px;
 cursor:pointer;
 font-size:42px;
 color:#fff;
 transition:all .4s;
+}
+.__mainbar{
+   text-align:center;
+   padding:60px;
+   margin:15px;
+   border-radius:25px;
+   cursor:pointer;
+   font-size:42px;
+   color:#fff;
+   transition:all .4s;
 }
 .__maindish:hover{
 opacity:.6;
@@ -200,9 +209,6 @@ transform:scale(.95);
   background-size: cover;
 }
 
-.__maindish {
-   
-}
 .salads {
    background-image: linear-gradient(
     to bottom,
@@ -247,20 +253,7 @@ transform:scale(.95);
 
 
 
-.__mainbar{
-   text-align:center;
-   padding:90px;
-   margin:15px;
-   border:1px solid black;
-   border-radius:25px;
-   cursor:pointer;
-   font-size:42px;
-   color:#fff;
-   transition:all .4s;
-}
-.main__bar {
-   
-}
+
 .coctails {
    background-image: linear-gradient(
       to bottom,
@@ -308,7 +301,6 @@ opacity:0;
 visibility: hidden;
 display: none;
 }
-
 
 .shots {
      background-image: linear-gradient(

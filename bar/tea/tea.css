@@ -12,6 +12,7 @@
    align-items:center;
    justify-content: space-between;
    margin-left:15px;
+   border-bottom:1px solid black;
 }
 .block__description{
 max-width:400px;
@@ -35,6 +36,7 @@ max-width:400px;
 }
 .value__firstblock {
 display:flex;
+margin-right:15px;
 }
 .value__secondblock {
    display:flex;

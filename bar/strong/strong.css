@@ -12,6 +12,7 @@
    align-items:center;
    justify-content: space-between;
    margin-left:25px;
+   border-bottom:1px solid black;
 }
 .value__measure {
    font-family:Roboto;

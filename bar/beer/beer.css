@@ -13,6 +13,7 @@
    align-items:center;
    justify-content: space-between;
    margin-left:15px;
+   border-bottom:1px solid black;
 }
 .name__title{
    font-weight:500;
